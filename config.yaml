@@ -25,7 +25,7 @@ monitors:
     name: Billing
     url: 'https://billing.bestboxhosting.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 301 # Temporary, ?todo: remove when billing is released.
 
   - id: bbh-panel
     name: Panel
